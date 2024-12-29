@@ -3,7 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }  
 a:hover{
-  color: #e31b6d! important;
+  color: #000000! important;
 }
 #heading {
   /* background-color: #2d1950 ; */
@@ -16,14 +16,14 @@ a:hover{
 .parOne {
   font-size: 50px;
   margin-left: 100px;
-  color: #e31b6d;
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
 
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 710px;
+  height: 520px;
   background-color: #2d1950  ;
   background-position: 50% 50%;
   z-index: -1;
@@ -77,7 +77,7 @@ a:hover{
  #skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 30px;
   
  }
@@ -91,11 +91,12 @@ a:hover{
   text-decoration:underline;
   font-size: 35px;
   margin-top: 20px;
-  color:#e31b6d;
+  color:#000000;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
 
  }
+
  .parTwo {
   border-bottom: 2px solid #e31b6d;
   border-top: 2px solid #e31b6d;
@@ -108,11 +109,10 @@ a:hover{
   height: 30vh;
   background-attachment: fixed;
 }
-
  #portfolio{
-  margin: 0;
+  /* margin: 0; */
   background-image: url(https://cdn.glitch.global/df165a3a-fbb7-4fe2-9c6a-b40204c19837/joe-woods-4Zaq5xY5M_c-unsplash.jpg?v=1698720189297);
- }
+ } 
 
 #container-2 {
   display: flex;
@@ -213,7 +213,7 @@ a:hover{
   }
 
   /* Не могу поставить текст по центру , смещается */
-  .banner {
+  /* .banner {
    text-align: center;
     text-size-adjust: 40px;
     background: #ffffff;
@@ -227,10 +227,11 @@ a:hover{
     border-left: 100px solid  #2d1950;
     border-right: 100px solid #2d1950; 
     border-bottom: 20px solid transparent;
-  }
-  #container-3 {
+   
+  } */
+  /* #container-3 {
     background-color: #2d1950;
-  }
+  } */
   .heading   {
     display: flex;
     flex-direction: column;
@@ -355,7 +356,7 @@ a:hover{
 	content: '';
 	position: absolute;
 	border: 20px solid transparent;
-	border-bottom: 20px solid  #e31b6d;
+	border-bottom: 20px solid  #ffffff;
 	width: 0;
 	height: 0;
 	top: -15px;
@@ -372,6 +373,7 @@ a:hover{
   display: flex;
   flex-direction: column;
   background-color: #e8e3ee;
+  margin-top: 10px;
   
 }
 .lng-watermark {
@@ -421,5 +423,6 @@ font-style {
     width: 390px;
     height: 800px;
   }
+
 
 }

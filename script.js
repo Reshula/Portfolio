@@ -1,3 +1,4 @@
+// Не получилось чтоb надпись была на анимации/
 gsap.to(".parOne", {
   text:"Hello , my name is Reyhana. <br>I am a  web developer.", 
   duration:2.5,
@@ -159,6 +160,3 @@ particlesJS("particles-js", {
   requestAnimationFrame(update);
 
 ////// Animation finished//////
-
-
-
